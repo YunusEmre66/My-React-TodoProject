@@ -18,7 +18,7 @@ const TodoEdit = ({handleEdit, toBeEdited}) => {
 
   useEffect(() => {
     setEditedTodo({...editedTodo,newEditedTodo:todo,description:descr })
-  }, [editedTodo,todo,descr])
+  }, [todo,descr])
   
 
   return (
