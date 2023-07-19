@@ -17,13 +17,10 @@ const Home = () => {
             console.log(error);
         }
     }
-
     
 useEffect(() => {
     getTodos()
 }, [])
-
-    
 
   return (
     <div>
@@ -32,5 +29,4 @@ useEffect(() => {
     </div>
   )
 }
-
 export default Home
